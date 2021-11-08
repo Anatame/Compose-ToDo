@@ -8,7 +8,7 @@ import com.anatame.composetd.ui.theme.*
 data class Note (
     val title: String,
     val content: String,
-    val timeStamp: Long,
+    val timestamp: Long,
     val color: Int,
     @PrimaryKey val id: Int? = null
 ) {
